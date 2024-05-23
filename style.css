@@ -1,0 +1,98 @@
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url(./240_F_589816214_UrRIg10z94aLFnQPmR6DT7L8YydkKBwr.jpg);
+    background-position: center;
+    background-size: cover;
+     overflow-y: hidden ;
+     overflow-x:hidden ;
+  
+}
+.calculator
+{
+  
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0px 0px 10px 4px rgba(44, 22, 1, 0.733);
+    width: 340px;
+
+}
+.calculator form input
+{
+    border:0;
+    outline: 0;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(255, 255,255,0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #2c3e50;
+    font-size:20px;
+    color: #fff;
+    cursor:pointer;
+    margin: 10px;
+
+    
+}
+
+.display
+{
+
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0;
+}
+ form .display input{
+    text-align: right;
+    font-size: 45px;
+    box-shadow: none;
+    flex: 1;
+    background-color: none;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+form input.operator
+{
+    color: red;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .calculator
+{
+  
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0px 0px 10px 4px rgba(44, 22, 1, 0.733);
+    width: 300px;
+
+}
+.calculator form input
+{
+    border:0;
+    outline: 0;
+    width:50px;
+    height:50px;
+    
+}
+
+.display
+{
+
+    display: flex;
+    justify-content: flex-end;
+    margin:10px 15px;
+}
+ 
+}
